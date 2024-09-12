@@ -59,6 +59,11 @@ This project includes unit and feature tests to ensure the functionality of vari
 
 Note: Currently, the PostControllerTest is not working as expected. We are actively working on fixing this issue.
 
+## Side Notes
+
+- We use Laravel Breeze for scaffolding the authentication system, providing a minimal and simple starting point for building our application.
+- The `spatie/laravel-activitylog` package is used for logging user activities in our application.
+
 ## Contributing
 
 Please read the CONTRIBUTING.md file for details on our code of conduct and the process for submitting pull requests.
