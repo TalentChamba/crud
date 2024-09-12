@@ -52,6 +52,13 @@ This is a Content Management System (CMS) for blog articles built with Laravel. 
 4. Add tags to posts
 5. Schedule posts for future publication
 
+## Testing
+
+This project includes unit and feature tests to ensure the functionality of various components. To run the tests, use the following command:
+`php artisan test --filter TagControllerTest` specific file testing
+
+Note: Currently, the PostControllerTest is not working as expected. We are actively working on fixing this issue.
+
 ## Contributing
 
 Please read the CONTRIBUTING.md file for details on our code of conduct and the process for submitting pull requests.
